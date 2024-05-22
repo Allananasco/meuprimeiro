@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aprendendo novas tags</h1>
+    <form action="" method="get">
+   <fieldset>
+    <legend>informações pessoais</legend>
+    <div>
+        <label for="">Nome:</label>
+        <input type="text" required autofocus="enable">
+    </div>
+    <br>
+    <div>
+        <label for="">email:</label>
+        <input type="email" required autofocus="enable" autocomplete="">
+    </div>
+    <br>
+    <div>
+    <label for="">Senha:</label>
+    <input type="password" required autofocus="enable">
+    </div>
+    <div>
+        <h3>Times</h3>
+        <input type="radio" name="Times" value="corinthias">corinthias
+        <br>
+        <input type="radio" name="Times" value="Real-madrid">Real-madrid
+        <br>
+        <input type="radio" name="Times" value="manchester city">manchester city
+        <br>
+        <input type="radio" name="Times" value="barcelona">barcelona
+        <br>
+        <input type="radio" name="Times" value="milan">milan
+    </div>
+    <div>
+        <h3>Cores:</h3>
+        <input type="checkbox" name="rosa" value="rosa">rosa
+        <br>
+        <input type="checkbox" name="roxo" value="roxo">roxo
+        <br>
+        <input type="checkbox" name="azul" value="azul">azul
+        <br>
+        <input type="checkbox" name="vermrlho" value="vermelho">vermelho
+        <br>
+        <input type="checkbox" name="laranja" value="laranja">laranja
+        <br>
+    </div>
+    <div>
+        <h3>quantidade</h3>
+     <input type="number" min="0" max="10">quantidade
+    </div>
+    <div>
+       <h3>auto complete</h3>
+       <label for="firtsname">firtsname</label><br>
+       <input type="firtsname" id="firtsname" type="text" autocomplete="given-name"/>
+       <br>
+    </div>
+        <label for="letsname">lestname</label><br>
+        <input type="lestname" id="letsname" type="text" autocomplete="family-name"/>
+        <br>
+
+        <label for="email">email</label><br>
+        <input type="email" id="email" type="email" autocomplete="on"/>
+        <br>
+
+    <button type="submit">enviar</button>
+   </fieldset>
+    </form>
+</body>
+</html>
